@@ -144,3 +144,6 @@ with open('movies.txt', 'r') as movie_file:
 ```
 
 The `with` keyword is a great way to open a file, process its contents, and to ensure that it will be closed.
+
+##Conclusion
+Knowing how to create file objects in Python allows us to process or create files. This expands the scope of what we can do within our scripts.
