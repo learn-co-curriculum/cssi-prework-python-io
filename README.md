@@ -1,5 +1,5 @@
-# File I/O
-Python has handy methods for manipulating file types besides other Python scripts. These methods allows us to access other files, manipulate them or create new files. These methods are helpful when wanting to use non-Pythonic data or when we want to store our output somewhere other than the terminal screen.
+# File Input/Output
+Python has handy methods for manipulating files. These methods allows us to access other files, process them and create new files. These methods are helpful when wanting to use non-Pythonic data or when we want to store our output somewhere other than the terminal screen.
 
 ## Objectives
 
@@ -51,7 +51,7 @@ my_file_obj.close()
 
 ## Writing to Files
 
-Let's make a new file, movies.txt and add some data to it. You can follow along by opening up the Python console in terminal. You can navigate to any directory that you don't mind using as a playground.
+Let's make a new file, movies.txt and add some data to it - this is the **output** part of the lesson. You can follow along by opening up the Python console in terminal. You can navigate to any directory that you don't mind using as a playground.
 
 The first step is to create a file object using the `open()` function. Since we know we want to add data to this new file, we can use the `w` method.
 
@@ -77,7 +77,7 @@ We always close the file when we're done with it.
 
 ## Reading Files
 
-The `read()` method starts at the start of a file. This method takes an optional parameter to indicate the number of characters to be read. If the parameter is omitted, the entire file is read.
+In order to use data in a file, we will need to load it into our script as **input**. The `read()` method starts at the start of a file. This method takes an optional parameter to indicate the number of characters to be read. If the parameter is omitted, the entire file is read.
 
 To read our movies.text file, we need to create a new file object in read mode: `r`. Then we'll print whatever read() returns so we can see it.
 ```python
