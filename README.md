@@ -3,10 +3,10 @@ Python has handy methods for manipulating files. These methods allows us to acce
 
 ## Objectives
 
-1. Open Files from a Python script
-2. Close Files from a Python script
-3. Writing to files from a Python script
-4. Reading files from a Python script
+1. Open files from a Python script
+2. Close files from a Python script
+3. Write to files from a Python script
+4. Read files from a Python script
 5. Use the 'with' Keyword
 
 ## Opening Files
@@ -68,7 +68,7 @@ Now that the file object has been created with the mode `w`, we can write to our
 ```python
 >>movie_file.write("Finding Nemo\nInside Out\nToy Story\nWallE")
 ```
-(The '\n' character is a newline, meaning that each time you see it you'll placing the remaining content on a new line (like hitting return))
+(The '\n' character is a newline, meaning that each time you see it you're placing the remaining content on a new line (like hitting return))
 
 When you run your script now, you should see Pixar's hits appear in your `movies.txt` file.
 
@@ -84,7 +84,7 @@ movie_file.write("Finding Nemo\nInside Out\nToy Story\nWallE")
 movie_file.close()
 ```
 
-Try creating a new file and using the open, write, and close functions to adding three more Pixar films to the list. Use the 'a' mode (instead of 'w') to append to an already existing list.
+Try creating a new file and using the open, write, and close functions to add three more Pixar films to the list. Use the 'a' mode (instead of 'w') to append to an already existing list.
 
 
 ## Reading Files
