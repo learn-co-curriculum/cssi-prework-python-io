@@ -16,11 +16,12 @@ my_file_object=open(filename,mode)
 ```
 
 Notice the second parameter of the `open()` function specifies a mode:
-`'r'` - read only
-`'w'` - write, will overwrite the previous file (if it exists) otherwise by using 'w' **a new file will be created** (you'll do this below)
-`'w+'` -allows you to read the data that was just written to the file.
-`'a'` - appends to existing file or creates a new one
-`'r+'` - read and write
+
++ `'r'` - read only
++ `'w'` - write, will overwrite the previous file (if it exists) otherwise by using 'w' **a new file will be created** (you'll do this below)
++ `'w+'` -allows you to read the data that was just written to the file.
++ `'a'` - appends to existing file or creates a new one
++ `'r+'` - read and write
 
 Once you've figured out what you want to do with the file, call the `open()` function with the name of the file you are trying to read, create or append to, along with that mode.
 
